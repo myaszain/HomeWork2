@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public class GenericBinarySearch<T> where T : IComparable<T>
     // I used this instruction(where T : IComparable<T>) to make sure that T is able to compare 
